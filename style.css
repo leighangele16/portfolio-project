@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    min-height: 100vh;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    border: 5px solid white;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.intro {
+    max-width: 600px;
+    margin: 0 auto 15px;
+    line-height: 1.6;
+}
+
+.tagline {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.learn-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.learn-btn:hover {
+    background-color: #1d4ed8;
+}
